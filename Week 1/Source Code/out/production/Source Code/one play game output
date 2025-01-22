@@ -1,0 +1,154 @@
+cd D:\Kashan\Documents\NetBeansProjects\mavenproject1; "JAVA_HOME=C:\\Program Files\\Java\\jdk-19" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-19\\bin\\java.exe\" -Dexec.mainClass=Hangman -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+--------------------< com.mycompany:mavenproject1 >---------------------
+Building mavenproject1 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ mavenproject1 ---
+llano
+ -------
+ |     |
+
+
+-----
+Please enter a letter
+l
+ll---
+Please enter your guess for the word : 
+t
+No! Try again!
+ -------
+ |     |
+ O
+
+
+ll---
+Please enter a letter
+r
+ll---
+Please enter your guess for the word : 
+rrrr
+No! Try again!
+ -------
+ |     |
+ O
+
+
+ll---
+Please enter a letter
+e
+ll---
+Please enter your guess for the word : 
+eerew
+No! Try again!
+ -------
+ |     |
+ O
+
+
+ll---
+Please enter a letter
+a
+lla--
+Please enter your guess for the word : 
+ewaerwer
+No! Try again!
+ -------
+ |     |
+ O
+\ 
+
+
+lla--
+Please enter a letter
+e
+lla--
+Please enter your guess for the word : 
+werwerw
+No! Try again!
+ -------
+ |     |
+ O
+\ 
+
+
+lla--
+Please enter a letter
+a
+lla--
+Please enter your guess for the word : 
+tertet
+No! Try again!
+ -------
+ |     |
+ O
+\ /
+
+
+lla--
+Please enter a letter
+a
+lla--
+Please enter your guess for the word : 
+fsdff
+No! Try again!
+ -------
+ |     |
+ O
+\ /
+ |
+
+
+lla--
+Please enter a letter
+q
+lla--
+Please enter your guess for the word : 
+sdfsdf
+No! Try again!
+ -------
+ |     |
+ O
+\ /
+ |
+
+
+lla--
+Please enter a letter
+a
+lla--
+Please enter your guess for the word : 
+asdasdd
+No! Try again!
+ -------
+ |     |
+ O
+\ /
+ |
+/ 
+
+
+lla--
+Please enter a letter
+a
+lla--
+Please enter your guess for the word : 
+wrwerwer
+No! Try again!
+ -------
+ |     |
+ O
+\ /
+ |
+/ \
+
+
+You Lose!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:20 min
+Finished at: 2022-12-09T00:52:04-07:00
+------------------------------------------------------------------------
